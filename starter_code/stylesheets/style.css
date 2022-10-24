@@ -1,10 +1,252 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+    max-width: 100%;
+}
+body { 
+    background-color: #540B51;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    width: 50vw;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+#liste{
+    display: none;
+}
+
+.nav-button{
+    background-color: unset;
+    border: none;
+}
+#slack{
+    width: 8rem;
+}
+#free{
+    color: floralwhite;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#free>span{
+    color: sandybrown;
+}
+h1{
+    color: aliceblue;
+    font-size: 3rem;
+    text-align: center;
+}
+#sign{
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+#sign > button{
+    height: 4rem;
+    
+}
+#email{
+    font-size: 1rem;
+    color: #540B51;
+}
+#google{
+    background-color: #4285F4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    }
+img[src="./images/logo-google.png"] {
+    height: 2rem;
+    width: 2rem;
+    background-color: aliceblue;
+}
+#sign-up{
+    margin-left: 10rem;
+    color: aliceblue;
+}
+#hero{
+    display: flex;
+    justify-content: center
+}
+#hero img{
+    height: 28rem;
+    width: 36rem;
+}
+h2{
+    margin-bottom: 1rem;
+}
+main {
+    width: 100%;
+    background-color: #F3EAE2;
+}
+#trusted p{
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+}
+#logo{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between
+}
+#logo img{
+    height: 4rem;
+    width: 10rem;
+}
+#connected img{
+    height: 28rem;
+    width: 36rem;
+    margin-bottom: 1rem;
+}
+#flexibility img{
+    height: 28rem;
+    width: 36rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#speed img{
+   height: 28rem;
+    width: 36rem; 
+}
+a{ color: cornflowerblue;
+    outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+#team>h3{
+    color: black;
+}
+#ter{
+    margin-top: 2rem;
+    background-color:white;
+}
+#team{
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+}
+
+#button-2{
+    margin-top: 1rem;
+    display: flex;
+    flex-flow: column;
+}
+#btn-1{
+    height: 3rem;
+    color: floralwhite;
+    background-color: #540B51;
+}
+#btn-2{
+    background-color: floralwhite;
+    color: #540B51;
+    height: 3rem;
+    border-bottom-color: #540B51;
+}
+
+#link{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    text-align: center;
+    list-style-type: none;
+}
+#link>li>p>span{
+    color: #540B51;
+    font-size: 2rem;
+    font-weight: bold;
+}
+#sect-1{
+    background-color: #540B51;
+    height: 10rem;
+    display: flex;
+    flex-flow: column;
+justify-content: space-between; 
+    margin-bottom: 1rem;
+}
+h3{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-bottom: 1rem;
+    color: floralwhite;
+    text-align: center;
+}
+#btn-3 {
+    color: floralwhite;
+    background-color: #540B51;
+    border-bottom-color: floralwhite;
+    height: 4rem;
+    width: 20rem;
+}
+#btn-4 {
+    height: 4rem;
+    width: 20rem;
+    color: #540B51;
+}
+footer{
+    background-color: floralwhite;
+    
+}
+footer ul{
+    list-style-type: none;
+}
+footer img{
+    width: 4rem;
+    margin-bottom: 2rem;
+}
+#div-1{
+    margin-bottom: 1rem;
+    display: flex;
+    
+}
+.cl-1{
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+#ul-1{
+    font-weight: bold;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+#ul-2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+div small {
+    color: #454245;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    body {
+      width: 35rem;
+    }
 /*
-background purple: #540B51
+background purple: v
 background ivory: #F3EAE2
+}
 button blue: #4285F4
 titles black: #191817
 paragraph black: #000000
 paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
-*/
+*/}
